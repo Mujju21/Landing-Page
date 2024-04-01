@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'pappins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(15deg,#00feba,#5d4dc2) ;
+    color: #fff;
+}
+
+.logo{
+    position: relative;
+    font-size: 40px;
+}
+
+
+.books{
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 22px;;
+}
+
+.books img{
+    border-radius: 12%;
+    padding: 14px;
+    height:350px;
+    width: 220px;
+}
+
+.books img:hover{
+    transform: scale(1.1);
+}
+
+.books h2{
+    color: rgb(10, 228, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.books a{
+    color: rgb(165, 42, 42);
+    text-decoration: none;
+}
+
+
+.books a:hover{
+    color: greenyellow;
+    transform: scale(1.1);
+}
+
+
+.book1, .book2, .book3, .book4{
+    border-bottom: 1px solid black;
+}
